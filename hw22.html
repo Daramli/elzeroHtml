@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw22</title>
+</head>
+<body>
+    <form action="/test.py" method="post">
+        <label for="user">Username : </label>
+        <input name="user" id="user" type="text" required placeholder="Enter Your Username"> 
+        <hr>
+        <label for="pass">Password : </label>
+        <input name="pass" id="pass" type="password" placeholder="Enter Your Password">
+        <hr>
+        <label for="mob">Mobile : </label>
+        <input name="mob" id="mob" type="tel" placeholder="Enter Your Phone Number">
+        <hr>
+        <label for="mail">Email : </label>
+        <input name="mail" id="mail"  type="email" required placeholder="Enter Your E-mail">
+        <hr>
+        <label for="sub">Subject : </label>
+        <input name="sub" id="sub" type="text" placeholder="Write Your Subject">
+        <input type="hidden" name="hid" id="hid" value="33">
+        <hr>
+        <label for="range">Range : </label>
+         <input type="range" name="range" id="range" min="100" max="500"  step="50" value="400" >
+         <hr>
+        <input type="submit" value="Send Data">
+        <input type="reset" value="Reset">
+
+       
+    </form>
+</body>
+</html>

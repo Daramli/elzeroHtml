@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw23</title>
+</head>
+<body>
+    <form action="/hw23.html" method="get">
+        <label for="user">Username : </label>
+        <input type="text" id="user" name="user" autofocus minlength="5" maxlength="20">
+        <label for="mail">E-mail : </label>
+        <input name="mail" id="mail" type="email" readonly value="o@o.com">
+        <label for="token">Token</label>
+        <input type="hidden" name="token" id="token" value="b92f1fc2fce391ad7af633723afd3055">
+        <hr>
+        <h3>Langauge : </h3>
+        <input type="checkbox" name="langs" id="html" value="html">
+        <label for="html">HTML</label>
+        <input type="checkbox" id="css" name="langs" value="css">
+        <label for="css">CSS</label>
+        <input type="checkbox" id="js" name="langs" value="js">
+        <label for="js">JS</label>
+        <hr>
+        <h3>JOB : </h3>
+        <input type="radio" name="job" id="swe" value="swe">
+        <label for="swe">SWE</label>
+        <input type="radio" name="job" id="fe" value="fe">
+        <label for="fe">FED</label>
+        <input type="radio" name="job" id="be" value="be">
+        <label for="be">BED</label>
+        <hr>
+        <label for="plv">Choose The Language Version : </label>
+        <select name="plv" id="plv">
+            <optgroup label="PHP">
+                <option value="">v5.0</option>
+            <option value="" selected>v7.0</option>
+            <option value="">v8.0</option>
+            </optgroup>
+            <optgroup label="python">
+                <option value="">v2.0</option>
+            <option value="">v3.0</option>
+            <option value="">v3.9</option>
+            </optgroup>
+            
+            
+            
+        </select>
+        <hr>
+        <input type="reset" value="Empty">
+        <input type="submit" value="Send">
+    </form>
+    
+</body>
+</html>
